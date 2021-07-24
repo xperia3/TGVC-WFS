@@ -1,7 +1,7 @@
 # TGVC-WFS
 ## Steps to Use This 
 - Fork this Repository
-- Create a new Private Repository and upload your .env file with all vars filled in your Private Repo
+- Create a new Blank Private Repository and upload your .env file (with all vars filled in it) to your Private Repo
 - Then add the following SECRETS in the settings of your Forked Repo :
 ```
    GITHUBNAME = Your GitHub Username
