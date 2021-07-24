@@ -9,6 +9,7 @@
    GH_TOKEN = Github Personal Access Token 
    CREDS = Link of your Private Repo (WITHOUT https://)
 ```
+- Then go to Actions tab of your Forked Repo and RUN the Workflow
 
 ## Credits ✨
  - [Dash Eclipse](https://github.com/dashezup) for [TGVC-Userbot](https://github.com/callsmusic/tgvc-userbot)
