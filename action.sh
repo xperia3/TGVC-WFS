@@ -2,6 +2,6 @@ git clone https://github.com/me-piro-786/tgvc-userbot /root/TGVC
 
 cp musicplayer/.env /root/TGVC 
 cd /root/TGVC 
-docker build -t tgcalls .
+docker build . --rm --force-rm --compress --pull --file Dockerfile -t musicplayer
 
-docker run -it --rm --env-file .env --name tgvc-userbot tgcalls
+docker run --privileged --env-file .env --rm -i musicplayer 
